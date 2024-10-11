@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Solicitud</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-entidad">
+            <img src="IMG/nombre-del-logo.png" alt="Logo Entidad">
+        </div>
+        <h1>Título del Trámite</h1>
+        <nav class="miga-de-pan">
+            <a href="index.html">Inicio</a> > <span>Formulario de Solicitud</span>
+        </nav>
+    </header>
+    <!-- Progreso del trámite -->
+    <div class="linea-de-tiempo">
+        <ul>
+            <li class="completo"><a href="index.html">Inicio</a></li>
+            <li class="activo"><a href="solicitud.html">Hago mi solicitud</a></li>
+            <li><a href="proceso.html">Procesan mi solicitud</a></li>
+            <li><a href="respuesta.html">Respuesta</a></li>
+        </ul>
+    </div>
+    
+    <main>
+        <h2>Formulario de Solicitud</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="documento">Número de Documento:</label>
+            <input type="text" id="documento" name="documento" required>
+
+            <label for="archivo">Adjuntar Documento:</label>
+            <input type="file" id="archivo" name="archivo" required>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 Entidad Responsable del Trámite | Contacto: +57 (1) 1234567 | contacto@entidad.gov.co</p>
+        <ul>
+            <li><a href="#">Políticas</a></li>
+            <li><a href="#">Mapa del sitio</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,260 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 15px;
+}
+
+.miga-de-pan {
+    margin-top: 10px;
+}
+
+.miga-de-pan a {
+    color: white;
+    text-decoration: none;
+}
+
+.miga-de-pan span {
+    color: #ccc;
+}
+
+/* Estilos de la línea de tiempo */
+.linea-de-tiempo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.linea-de-tiempo ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.linea-de-tiempo li {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ddd;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.linea-de-tiempo .completo {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.linea-de-tiempo .activo {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Estilos del formulario */
+main {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+form label {
+    grid-column: 1 / span 2;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    grid-column: 1 / span 2;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el logo en el header */
+.logo-entidad img {
+    width: 150px; /* Ajusta este valor según prefieras */
+    height: auto; /* Mantiene la proporción */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo-entidad img {
+    width: 120px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+/* Sección de bienvenida */
+.bienvenida {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contenedor-bienvenida h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contenedor-bienvenida p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Botones de la página principal */
+.contenedor-botones {
+    margin-bottom: 40px;
+}
+
+.boton-inicio {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.boton-inicio:hover {
+    background-color: #003f7f;
+}
+
+/* Sección de información adicional */
+.informacion-adicional {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.informacion-adicional h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.boton-mas-info {
+    background-color: #ffa500;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-mas-info:hover {
+    background-color: #cc8400;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contenedor del mapa */
+.contenedor-mapa {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contenedor-mapa iframe {
+    width: 100%; /* Ajusta el mapa al ancho del contenedor */
+    max-width: 800px; /* Tamaño máximo */
+    height: 450px; /* Altura del mapa */
+    border: 0; /* Sin borde */
+}

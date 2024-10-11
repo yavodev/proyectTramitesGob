@@ -1,3 +1,13 @@
+
+:root {
+    --primary-color: #0a69a6; /* Color principal del encabezado */
+    --secondary-color: #4caf50; /* Botón de "Inicio" */
+    --highlight-color: #ff9800; /* Botón de "Hago mi solicitud" */
+    --neutral-color: #f4f4f4; /* Fondo claro */
+    --text-color: #333; /* Texto general */
+    --footer-bg-color: #444; /* Color del pie de página */
+  }
+  
 /* Estilos globales */
 body {
     font-family: Arial, sans-serif;
@@ -8,11 +18,11 @@ body {
 }
 
 header {
-    background-color: #004080;
+    background-color: var(--primary-color);
     color: white;
     padding: 20px;
     text-align: center;
-}
+  }
 
 header img {
     width: 50px;
@@ -22,23 +32,23 @@ header img {
 }
 
 header h1 {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 15px;
-}
+    margin: 0;
+    font-size: 24px;
+  }
 
-.miga-de-pan {
+  .miga-de-pan {
     margin-top: 10px;
-}
+    font-size: 14px;
+  }
 
-.miga-de-pan a {
+  .miga-de-pan a {
     color: white;
     text-decoration: none;
-}
+  }
 
-.miga-de-pan span {
-    color: #ccc;
-}
+  .miga-de-pan a:hover {
+    text-decoration: underline;
+  }
 
 /* Estilos de la línea de tiempo */
 .linea-de-tiempo {
@@ -143,11 +153,11 @@ footer a:hover {
 
 /* Estilo para el logo en el header */
 .logo-entidad img {
-    width: 150px; /* Ajusta este valor según prefieras */
-    height: auto; /* Mantiene la proporción */
-    display: inline-block;
-    vertical-align: middle;
-}
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
 
 /* Estilos generales */
 body {

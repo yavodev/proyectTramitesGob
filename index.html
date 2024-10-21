@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Entidad de Tránsito</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-
+         
+     
     <!-- Encabezado con el logo y nombre de la entidad -->
     <header>
         <div class="logo-entidad">
@@ -25,16 +27,16 @@
         <!-- Botones de acceso a los trámites -->
         <div class="contenedor-botones">
             <a href="solicitud.html" class="boton-inicio">Realizar Trámite</a>
-            <a href="proceso.html" class="boton-inicio">Consultar Proceso</a>
-            <a href="respuesta.html" class="boton-inicio">Ver Respuesta</a>
+            <a href="proceso.php" class="boton-inicio">Realizar Pago</a>
+            <a href="respuesta.php" class="boton-inicio">Ver Respuesta</a>
         </div>
     </section>
 
     <!-- Sección de información adicional -->
     <section class="informacion-adicional">
         <h3>Información importante</h3>
-        <p>Consulta todos los servicios que ofrecemos y los pasos a seguir para realizar tus trámites de tránsito de manera eficiente.</p>
-        <a href="informacion.html" class="boton-mas-info">Más Información</a>
+        <p>Consulta toda la información y los pasos a seguir para realizar tu trámite de tránsito de manera eficiente.</p>
+        <a href="tramites.html" class="boton-mas-info">Más Información</a>
     </section>
 
      <!-- Sección de contacto -->
@@ -50,7 +52,33 @@
 
     <!-- Pie de página -->
     <footer>
-        <p>&copy; 2024 Entidad de Tránsito | Contacto: +57 (1) 1234567 | contacto@entidad.gov.co</p>
+        <div class="footer-contenido">
+            <!-- Sección de redes sociales -->
+            <div class="footer-redes">
+                <h3>Síguenos en</h3>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            
+            <!-- Sección de temas de interés -->
+            <div class="footer-temas">
+                <h3>Temas de Interés</h3>
+                <ul>
+                    <li><a href="#">Trámites en línea</a></li>
+                    <li><a href="#">Servicios al ciudadano</a></li>
+                    <li><a href="#">Normatividad</a></li>
+                    <li><a href="#">Consultas y pagos</a></li>
+                    <li><a href="#">Soporte y ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Información de contacto y copyright -->
+        <div class="footer-copyright">
+            <p>© 2024 Entidad Responsable del Trámite | Contacto: +57 (1) 1234567 | contacto@entidad.gov.co</p>
+        </div>
     </footer>
 
 </body>

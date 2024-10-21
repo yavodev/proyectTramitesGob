@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo-entidad img {
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 140px;
+}
+
+/* Navegación */
+nav {
+    background-color: #0056b3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Tabla de solicitudes */
+table.solicitudes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.solicitudes th, table.solicitudes td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table.solicitudes th {
+    background-color: #007bff;
+    color: white;
+}
+
+table.solicitudes td a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+table.solicitudes td a:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+.btn-aprobar, .btn-rechazar {
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-aprobar {
+    background-color: #28a745;
+}
+
+.btn-rechazar {
+    background-color: #dc3545;
+}
+
+.btn-aprobar:hover {
+    background-color: #218838;
+}
+
+.btn-rechazar:hover {
+    background-color: #c82333;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
